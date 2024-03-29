@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.appContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.formDropdown {
+  width: 100%;
+}
+
+.submitButton {
+  width: 50%;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.errorText {
+  color: red;
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+.tabList {
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 70vw;
+}
+
+.fragranceForm {
+  width: 50vw;
+}
+
+.fragranceList {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fragranceListItem {
+  margin: 3em;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.fragranceItemListAvatar {
+  height: 125px;
+  width: 125px;
+}
+
+.fragranceListItemContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.fragranceListItemName {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.fragranceListItemDescription {
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+.updateFragranceButton {
+  margin-top: 1em;
+}
+
+@media screen and (max-width: 400px) {
+  .orderFormInputsWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .submitButton {
+    width: 100%;
+  }
+
+  .tabList {
+    margin-bottom: 2em;
+    padding: 1em;
+    width: auto;
+  }
+
+  .fragranceItemListAvatar {
+    height: 75px;
+    width: 75px;
+  }
+}
